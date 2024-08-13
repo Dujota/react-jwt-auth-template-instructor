@@ -1,7 +1,6 @@
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
 
 const signout = () => {
-  debugger;
   window.localStorage.removeItem('token');
 };
 
